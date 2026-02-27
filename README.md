@@ -29,9 +29,9 @@ This project is an automated payment reminder system built using n8n, Google She
 
 The system classifies each record into:
 Type	Condition
-📅 due_today	Status = pending AND due date = today
-⚠️ overdue	Status = pending AND overdue date = today
-❤️ completed	Status = done AND due date = today
+* 📅 due_today	Status = pending AND due date = today
+* ⚠️ overdue	Status = pending AND overdue date = today
+* ❤️ completed	Status = done AND due date = today
 
 ---
 
