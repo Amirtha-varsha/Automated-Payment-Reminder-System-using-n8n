@@ -1,11 +1,10 @@
 # Automated Payment Reminder System using n8n
 
 ## Project Overview
-This project is an automated payment reminder system built using n8n, Google Sheets, and Twilio WhatsApp/SMS API. It automatically checks payment records daily and sends appropriate messages based on payment status.The workflow identifies three cases:
+This project is an automated payment reminder system built using n8n, Google Sheets, and Twilio WhatsApp/SMS API. It automatically checks payment records daily and sends appropriate messages based on payment status.Each case triggers a different personalized message.The workflow identifies three cases:
 * ⚠️ Payment Due Today (Pending)
 * ⏰ Payment Overdue (Pending)
 * ❤️ Payment Completed Today
-Each case triggers a different personalized message.
 
 ---
 
